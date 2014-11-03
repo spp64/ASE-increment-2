@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/setFirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name" />
+
+            <EditText
+                android:id="@+id/typeFirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/setLastName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/last_name" />
+
+            <EditText
+                android:id="@+id/typeLastName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/setUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/username" />
+
+            <EditText
+                android:id="@+id/typeUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/setEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/typeEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/setPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@+id/typePassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/newRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register" />
+
+            <TextView
+                android:id="@+id/goLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Already have an account? Login here!"
+                android:textColor="#025f7c"
+                android:textSize="20dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
